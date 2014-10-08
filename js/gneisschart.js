@@ -75,30 +75,30 @@ Gneiss.defaultGneissChartConfig = {
 	],
 	series: [
 		{
-			name: "apples",
+			name: "Goals",
 			data: [5.5,10.2,6.1,3.8],
 			source: "Some Org",
 			type: "line",
 			axis: 0,
-			color: null
+			color: "#2b9dca"
 		},
 		{
-			name: "oranges",
+			name: "Performance",
 			data: [23,10,13,7],
 			source: "Some Org",
 			type: "line",
 			axis: 0,
-			color: null
+			color: "#565656"
 		}
 	],
 	xAxisRef: [
 		{
 			name: "names",
-			data: ["juicyness","color","flavor","travelability"]
+			data: ["2009","2010","2011","2012"]
 		}
 	],
 	sourceline: "",
-	creditline: "Made with Chartbuilder"
+	creditline: "City of Los Angeles"
 };
 
 Gneiss.dateParsers = {
